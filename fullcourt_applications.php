@@ -12,7 +12,7 @@
     // Create Application
     $params = array(
         'FriendlyName' => 'fullcourt-php applications',
-       'VoiceURL' => 'http://php-sample.fullcourt.co/applications.html',
+        'VoiceURL' => 'http://php-sample.fullcourt.co/applications.html',
         'VoiceMethod' => 'POST'
     );
     $response = $p->create_application($params);
