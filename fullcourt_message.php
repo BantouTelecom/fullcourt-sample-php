@@ -14,7 +14,7 @@
         'To'   => '818011111111',
         'Body' => 'Your password is 1234'
     );
-    // Get Applications
+    // Send Message
     $response = $p->send_message($params);
 ?>
     
