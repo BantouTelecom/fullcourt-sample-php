@@ -6,7 +6,7 @@
 	$response = new Response();
 
 	// Add Speak Element
-	$speak = $response->addSpeak($text,$attribute);
+	$response->addSpeak($text,$attribute);
 
 	echo($response->toXML());
 
